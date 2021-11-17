@@ -18,3 +18,66 @@
 #print x 
 
 ## operators and operands
+
+#minute = 59
+#print minute/60
+#print minute/60.0
+
+##Expressions
+##
+#x
+#17
+#print x + 17
+
+## Traceback (most recent call last):
+#  File "/var/mobile/Containers/Data/#Application/3112192A-1F96-4859-BBC6-#CFE13592CEB1/Documents/#HelloWorld.py", line 28, in <module>
+#    x
+#NameError: name 'x' is not defined
+
+
+#5
+#x=5
+#print x+1
+
+##Order of Operations ##
+
+#PEMDAS still applies#
+
+## Modulus Operator ##
+
+#quotient = (7/3)
+#print (quotient)
+2
+
+#remainder = 7%3 #modulus operator
+#print remainder
+1
+
+##String Operations##
+
+#first = 10
+#second = 15
+#print (first+second)
+
+#firstx2 = '100'
+#secondx2 = '150'
+#print (firstx2 + secondx2)
+
+##Asking For User Input##
+##MUST USE STRINGS##
+
+#input = raw_input() #this doesn't do anything on the app
+#anything you want 
+#print input
+
+#equals = raw_input('Is 1 equal to #one?\n')
+#print equals
+
+#prompt = 'What is your favorite #color?\n'
+#color = raw_input(prompt)
+
+#LOOPS ##this didn't work
+#for slice in pizza:
+#    print slice
+
+bad name = 5 #SyntaxError: invalid syntax
