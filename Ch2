@@ -1,3 +1,11 @@
+###########################
+###########################
+## Helyne Joseph
+## Practice from Text
+## November 2021
+###########################
+###########################
+
 #message = 'And now for something comoletely different'
 #n=17
 #pi = 3.14747474
@@ -81,3 +89,36 @@
 #    print slice
 
 bad name = 5 #SyntaxError: invalid syntax
+
+#most common error is using a variable before defining it (likely caused by a typo). 
+
+#principle = 372
+#interest = principal*rate. #note the results
+
+
+
+##....More Practice...##
+#2.2.. Write a program that uses raw_input to prompt a user for their name and then welcomes them. (Eg-> Enter your name: Chuck./n Hello Chuck)
+
+#..My code
+#. person=raw_input('Please Type Your Name.:\n)
+#. print 'Hello '+ person
+
+#2.3..write a program to prompt the user for hours and rate per hour to compute gross pay.
+
+#hours=rsw_input('Enter Hours:\n')
+#Rate=raw_input('Enter Rate:\n')
+#Pay=hoursxrate
+#print Pay
+
+#2.5 write a program which prompts the user for a Celcius temp, convert the temp to Fahrenheit(multiplication), and print put the converted temp (as an integer).
+
+#TempC = int(raw_input('What is the temp in celcius? \n')
+#TempF = (TempC x 9/5)+32
+#print TempF
+
+
+#
+
+
+### Find glossary terms and pasye them here ###
