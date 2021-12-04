@@ -38,7 +38,7 @@
 #print x + 17
 
 ## Traceback (most recent call last):
-#  File "/var/mobile/Containers/Data/#Application/3112192A-1F96-4859-BBC6-#CFE13592CEB1/Documents/#HelloWorld.py", line 28, in <module>
+#  File #"/var/mobile/Containers/Data/#Application/3112192A-1F96-485#9-BBC6-#CFE13592CEB1/Documents/#HelloWorld.py", line 28, #in <module>
 #    x
 #NameError: name 'x' is not defined
 
@@ -55,11 +55,11 @@
 
 #quotient = (7/3)
 #print (quotient)
-2
+#2
 
 #remainder = 7%3 #modulus operator
 #print remainder
-1
+#1
 
 ##String Operations##
 
@@ -75,50 +75,62 @@
 ##MUST USE STRINGS##
 
 #input = raw_input() #this doesn't do anything on the app
-#anything you want 
-#print input
+## ---raw_inputdoesn'twork in newer versions of python. Use input() ONLY
 
-#equals = raw_input('Is 1 equal to #one?\n')
-#print equals
+#equals = input('Is 1 equal to #one?\n')
+#print (equals)
 
 #prompt = 'What is your favorite #color?\n'
-#color = raw_input(prompt)
+#color = input(prompt)
 
-#LOOPS ##this didn't work
+##-LOOPS-## this didn't work ** because it is not a full code. Just a teaching pt for right now.
 #for slice in pizza:
-#    print slice
+#    print (slice)
 
-bad name = 5 #SyntaxError: invalid syntax
+#bad name = 5 #SyntaxError: invalid syntax
 
-#most common error is using a variable before defining it (likely caused by a typo). 
+#most common error is using a variable before defining it 
+#(likely caused by a typo). 
 
 #principle = 372
-#interest = principal*rate. #note the results
+#interest = principal*rate #note the results
 
 
 
 ##....More Practice...##
-#2.2.. Write a program that uses raw_input to prompt a user for their name and then welcomes them. (Eg-> Enter your name: Chuck./n Hello Chuck)
+#2.2.. Write a program that uses raw_input to prompt a user #for their name and then welcomes them. (Eg-> Enter your #name: Chuck./n Hello Chuck)
 
-#..My code
-#. person=raw_input('Please Type Your Name.:\n)
-#. print 'Hello '+ person
+#- My code 
+#person=input('Please Type Your First & Last Name:\n')
+#print ('Hello '+ person)
 
-#2.3..write a program to prompt the user for hours and rate per hour to compute gross pay.
+#- 2.3 Write a program to prompt the user for hours and rate #per hour to compute gross pay.
 
-#hours=rsw_input('Enter Hours:\n')
-#Rate=raw_input('Enter Rate:\n')
-#Pay=hoursxrate
-#print Pay
+#hours=int(input('Enter Hours:\n'))
+#rate=int(input('Enter Rate:\n'))
+#Pay=int(hours * rate)
+#print (Pay)
 
-#2.5 write a program which prompts the user for a Celcius temp, convert the temp to Fahrenheit(multiplication), and print put the converted temp (as an integer).
+#- 2.5 write a program which prompts the user for a Celcius #temp, convert the temp to Fahrenheit(multiplication), and print put the converted temp (as an integer).
 
-#TempC = int(raw_input('What is the temp in celcius? \n')
-#TempF = (TempC x 9/5)+32
-#print TempF
+##- Okay this code below doesn't work properly, but is revised in the "Trying 2.5 again" area in the next two sections below -##
+
+#weather = raw_input() ## Newer version of Python use >>input()<< only 
+#prompt = raw_input('What is the temp in celcius? \n')
+#print ('prompt')
+#howcoldC = int(raw_input('prompt'))
+#howcoldF = (howcoldC * (9/5) + 32)
+#print ('howcoldF')
+
+#-Test to make sure I know how this function works-#
+#wantedthing = input()
+#print (wantedthing)
+
+#-Trying 2.5 again - This one works -# 
+#prompt = input('What is the temp in celcius? \n')
+#howcoldC = int(prompt)
+#howcoldF = (howcoldC*(1.8)+32)
+#print (howcoldF)
 
 
-#
-
-
-### Find glossary terms and pasye them here ###
+### Find glossary terms and paste them here ###
